@@ -279,6 +279,183 @@
       </div>
     </section>
 
+    <!-- Writing -->
+    <section>
+      <h2>Writing</h2>
+      <div class="case-studies">
+
+        <details class="case">
+          <summary>
+            <span class="case-num">01</span>
+            <span class="case-info">
+              <span class="case-title">Why Most Risk Heat Maps Fail (and What to Do Instead)</span>
+            </span>
+            <span class="case-arrow">&#x25BE;</span>
+          </summary>
+          <div class="case-body">
+
+            <p>Risk heat maps are everywhere in financial services. They look clean, they're easy to socialize, and they give leadership a sense that risk is being "managed." The problem is that heat maps often convert complex uncertainty into a tidy picture that feels quantitative—but isn't.</p>
+
+            <p>Douglas Hubbard's <em>The Failure of Risk Management</em> makes a blunt point: when we treat ordinal categories ("low/medium/high") like numbers, we get outputs that are mathematically meaningless and operationally misleading. In practice, that shows up as two risks with wildly different potential losses landing in the same red box, or a "high likelihood / low impact" risk outranking a lower likelihood event that could materially impair capital.</p>
+
+            <div class="case-block">
+              <h4>The hidden flaw: ordinal scales aren't arithmetic</h4>
+              <p>A 1–5 scale is not automatically numeric in a useful way. If "impact = 5" is simply "catastrophic," you can't assume it's five times worse than "impact = 1." When we multiply "likelihood × impact," we're doing arithmetic on labels. That doesn't mean qualitative assessment is useless. It means we should stop confusing it with measurement.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>A better approach: decision-grade quantification</h4>
+              <p>You don't need perfect data to improve a decision. You need enough precision to choose between alternatives. A practical upgrade path:</p>
+              <ul>
+                <li><strong>Standardize the risk statement.</strong> Make risk statements specific enough to quantify. Bad: "Credit risk increases." Better: "Increased CRE refinancing failures drive losses above baseline."</li>
+                <li><strong>Define an economic impact range.</strong> Even a wide range is better than none: "$5M–$25M expected loss under adverse conditions" or "0–50 bps capital ratio impact."</li>
+                <li><strong>Use calibrated judgment.</strong> Most experts are overconfident. Calibration training—simple exercises that teach people what "90% confidence" actually means—produces immediate improvement in estimation quality.</li>
+                <li><strong>Simulate rather than pretend.</strong> Monte Carlo simulation doesn't require fancy data science. It requires ranges, distributions (even rough), and iteration. The output is not a "perfect number," but an honest representation of uncertainty.</li>
+              </ul>
+            </div>
+
+            <div class="case-block">
+              <h4>What this changes in an ERM program</h4>
+              <p>When you move from heat maps to ranges and distributions, materiality decisions become defensible, prioritization becomes traceable, and "risk appetite" stops being abstract and becomes measurable thresholds. Most boards actually prefer: top risks ranked by estimated loss distribution, sensitivities ("what drives the tail?"), and early warning indicators tied to measurable thresholds.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>Practical takeaway</h4>
+              <p>Treat heat maps as communication tools, not analytic tools. Build your real prioritization engine on standardized risk statements, quantified impact ranges, calibrated estimates, and simulation outputs. That's how you get risk reporting that informs decisions instead of simply reassuring stakeholders.</p>
+            </div>
+
+          </div>
+        </details>
+
+        <details class="case">
+          <summary>
+            <span class="case-num">02</span>
+            <span class="case-info">
+              <span class="case-title">"If You Can't Measure It, You Can't Manage It" Is True… and Misused</span>
+            </span>
+            <span class="case-arrow">&#x25BE;</span>
+          </summary>
+          <div class="case-body">
+
+            <p>The phrase "what gets measured gets managed" is often repeated in risk management as if measurement is binary: either you have precise data or you have nothing. Hubbard's argument is more nuanced and more useful: most measurement starts with uncertainty, and the goal is to reduce uncertainty only to the extent it improves a decision.</p>
+
+            <div class="case-block">
+              <h4>Measurement isn't precision. It's decision support.</h4>
+              <p>A risk estimate with wide uncertainty can still be actionable. If the 90% range of losses is $1M–$3M, you manage it one way. If the 90% range is $10M–$200M, you manage it very differently. Even without knowing the exact number, you know which risks deserve attention.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>The "value of information" test</h4>
+              <p>One of the most practical ideas in the literature is Value of Information (VOI): what is the expected benefit of reducing uncertainty, and is it worth the cost of measurement? This is how mature risk programs avoid analysis paralysis. Not every risk warrants deep modeling. Some risks warrant a light estimate plus monitoring triggers.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>How this applies to ERM materiality</h4>
+              <p>Materiality decisions often fail because they're framed as debates, not decisions. A better approach: define the decision ("is this risk material enough to require appetite metrics and board visibility?"), define the threshold ("material if potential downside exceeds X dollars or Y capital impact with Z probability"), estimate enough to classify, and if uncertain and high-stakes, invest in more measurement. This turns ERM into an operating system instead of a periodic exercise.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>The uncomfortable truth: "unquantifiable risk" is often lazy wording</h4>
+              <p>Some risks are genuinely hard to quantify directly—reputation, culture, conduct. But most can be quantified indirectly using proxies: customer attrition cost, funding spread impact, legal settlement distributions, remediation costs, scenario-driven revenue loss. The goal isn't perfect measurement. It's a quantified lens that improves prioritization and tradeoffs.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>Practical takeaway</h4>
+              <p>Treat risk measurement as an iterative process: start with a range, identify what drives the range, reduce uncertainty only when the decision warrants it. That's how ERM becomes both rigorous and practical—without becoming an academic exercise.</p>
+            </div>
+
+          </div>
+        </details>
+
+        <details class="case">
+          <summary>
+            <span class="case-num">03</span>
+            <span class="case-info">
+              <span class="case-title">Building a Risk Inventory That Actually Works (and Survives Exams)</span>
+            </span>
+            <span class="case-arrow">&#x25BE;</span>
+          </summary>
+          <div class="case-body">
+
+            <p>Most organizations have some form of "risk inventory." Too often it becomes a list of risk topics with inconsistent definitions, unclear ownership, and no way to decide what's actually material. That's not an inventory—it's a catalog of concerns. Here's what makes a decision-grade risk inventory.</p>
+
+            <div class="case-block">
+              <h4>1. A risk statement must be specific enough to evaluate</h4>
+              <p>A strong risk statement typically includes a driver (what changes), a mechanism (how it causes loss), an outcome (what gets worse), and a scope (what business or process). You don't need legal drafting. You need clarity.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>2. Ownership must be explicit across lines of defense</h4>
+              <p>A functioning inventory makes accountability visible: first line (business owner accountable for managing exposure) and second line (risk owner accountable for oversight and challenge). If ownership is unclear, remediation stalls. If both lines "own" it vaguely, nobody owns it.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>3. Materiality must have a method</h4>
+              <p>Materiality isn't "what feels scary." It's a decision supported by criteria—economic impact thresholds (loss, earnings volatility, capital impact), regulatory sensitivity, operational disruption, speed of onset and controllability. Even if some criteria are qualitative, the method is explicit and repeatable.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>4. Don't force false precision</h4>
+              <p>It's better to represent uncertainty honestly than to hide it behind a confident score. Use ranges and scenario-based estimates where appropriate.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>5. Governance and challenge are part of the product</h4>
+              <p>An inventory that isn't challenged becomes a political artifact. Mature ERM requires a review cadence, challenge protocols ("what evidence supports this?"), escalation thresholds, and documentation standards. This is what makes the inventory defensible to regulators, auditors, and boards.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>Practical takeaway</h4>
+              <p>A strong inventory is standardized, owned, measurable (or proxy-measurable), governed, and repeatable. When those elements are present, ERM becomes a platform the organization can build on: risk appetite, stress testing linkage, board reporting, and strategic decisioning.</p>
+            </div>
+
+          </div>
+        </details>
+
+        <details class="case">
+          <summary>
+            <span class="case-num">04</span>
+            <span class="case-info">
+              <span class="case-title">Incident Lessons Without Blame: Turning Failures Into Controls and Resilience</span>
+            </span>
+            <span class="case-arrow">&#x25BE;</span>
+          </summary>
+          <div class="case-body">
+
+            <p>Operational failures will happen. What matters is whether the organization learns faster than the risk can scale. The goal isn't producing artifacts that feel good—it's producing outputs that change outcomes.</p>
+
+            <div class="case-block">
+              <h4>The common failure mode</h4>
+              <p>Many incident postmortems end with vague root causes ("process breakdown"), generic fixes ("improve training"), no measurable control improvements, and no linkage to risk appetite or KRIs. That's how the same incident repeats—often in a bigger form.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>A better model: incident → mechanism → controls → monitoring</h4>
+              <ul>
+                <li>Define the failure mechanism (what exactly broke)</li>
+                <li>Identify control gaps (prevent / detect / respond)</li>
+                <li>Prioritize fixes by expected reduction in loss likelihood or impact</li>
+                <li>Define KRIs that provide early warning</li>
+                <li>Track remediation to closure with evidence</li>
+              </ul>
+            </div>
+
+            <div class="case-block">
+              <h4>Resilience is a product feature</h4>
+              <p>Resilience isn't a binder. It's the ability to maintain critical services under disruption. That requires embedding dependency mapping, tabletop exercises tied to realistic scenarios, recovery objectives that reflect business priorities, and evidence that the organization can execute under pressure.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>Practical takeaway</h4>
+              <p>Build an incident discipline that produces specific mechanisms, targeted controls, measurable monitoring, and closed-loop remediation. That's operational risk management that actually reduces risk—not just reports it.</p>
+            </div>
+
+          </div>
+        </details>
+
+      </div>
+    </section>
+
     <!-- Contact -->
     <section class="contact">
       <h2>Let's talk.</h2>
