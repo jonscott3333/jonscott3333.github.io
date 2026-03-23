@@ -36,38 +36,40 @@
     </nav>
   </header>
 
-  <main>
-
-    <!-- Hero -->
-    <section class="hero">
+  <!-- Hero — full-bleed, outside <main> -->
+  <section class="hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
       <h1>Jon Scott</h1>
-      <p class="subtitle">Director / VP, Enterprise Risk Management</p>
-      <p class="tagline">I build and mature ERM programs—risk identification, taxonomy, risk appetite&nbsp;/ KRIs, stress testing alignment, and Board-ready governance—so leadership can prioritize risk, meet regulatory expectations, and scale safely.</p>
+      <p class="subtitle">Enterprise Risk Management &amp; Operational Risk Leader</p>
+      <p class="tagline">I build scalable ERM foundations—risk identification, taxonomy, risk appetite&nbsp;/ KRIs, and governance—so organizations can scale safely with board- and regulator-ready rigor.</p>
       <div class="ctas">
         <a href="resume.pdf" download class="btn-primary">Download Resume</a>
-        <a href="mailto:jonscott100@gmail.com" class="btn-secondary">Email Me</a>
+        <a href="mailto:jonscott100@gmail.com" class="btn-secondary btn-hero">Contact</a>
       </div>
-    </section>
+      <div class="hero-proof">
+        <div class="hero-proof-item">
+          <span class="hero-metric">1,400+</span>
+          <span class="hero-proof-label">enterprise risks standardized &amp; assessed</span>
+        </div>
+        <div class="hero-proof-item">
+          <span class="hero-metric">50+</span>
+          <span class="hero-proof-label">executives &amp; SMEs engaged</span>
+        </div>
+        <div class="hero-proof-item">
+          <span class="hero-metric">$90B</span>
+          <span class="hero-proof-label">portfolio CCAR credit risk reporting</span>
+        </div>
+        <div class="hero-proof-item">
+          <span class="hero-metric">20–25</span>
+          <span class="hero-proof-label">controls implemented, audit-ready evidence</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Proof Bar -->
-    <section class="proof-bar">
-      <div class="proof-item">
-        <span class="metric">15+</span>
-        <span class="proof-label">years in risk, governance &amp; finance leadership</span>
-      </div>
-      <div class="proof-item">
-        <span class="metric">1,400+</span>
-        <span class="proof-label">enterprise risks identified &amp; assessed with 50+ senior leaders</span>
-      </div>
-      <div class="proof-item">
-        <span class="metric">$90B+</span>
-        <span class="proof-label">asset portfolio risk &amp; stress testing coverage</span>
-      </div>
-      <div class="proof-item">
-        <span class="metric">100+</span>
-        <span class="proof-label">risk inventory reported to Board &amp; executive committees</span>
-      </div>
-    </section>
+  <main>
 
     <!-- What I Do -->
     <section>
@@ -471,6 +473,8 @@
   <footer>
     <p>&copy; 2026 Jon Scott</p>
   </footer>
+
+  <script src="hero.js"></script>
 
 </body>
 </html>
